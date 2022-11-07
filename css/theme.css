@@ -55,6 +55,10 @@ main > .tagline {
   font-weight: 100;
 }
 
+.icons-social a {
+  text-decoration: none;
+}
+
 .icons-social i {
   padding: 10px;
 }
@@ -72,4 +76,12 @@ main {
 
 .icons-social a svg path {
   fill: #303F9F;
+}
+
+.icons-social a:hover {
+  color: #3544B8;
+}
+
+.icons-social a svg path:hover {
+  fill: #3544B8;
 }
